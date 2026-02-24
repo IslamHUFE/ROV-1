@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ESP32-S3-DEVKITC-1-N8R2")(type "KiCad")(uri "${KIPRJMOD}/footprints and 3d models/ESP32-S3-DEVKITC/ESP32-S3-DEVKITC-1-N8R2.kicad_sym")(options "")(descr ""))
+  (lib (name "MPU6050")(type "KiCad")(uri "${KIPRJMOD}/MPU6050.kicad_sym")(options "")(descr ""))
+)
