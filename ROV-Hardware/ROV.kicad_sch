@@ -2262,6 +2262,140 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MPU6050:GY-MS5837"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -1.27 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GY-MS5837_1_1"
+				(rectangle
+					(start -3.81 2.54)
+					(end 3.81 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -6.35 1.27 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -3.81 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -6.35 -6.35 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MPU6050:MPU6050-kit"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3866,6 +4000,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 83.82) (xy 252.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c76af39-9372-4941-b67b-81958d6c5527")
+	)
+	(wire
+		(pts
 			(xy 139.7 81.28) (xy 137.16 81.28)
 		)
 		(stroke
@@ -3893,6 +4037,26 @@
 			(type default)
 		)
 		(uuid "3d9258d6-e171-4b6a-bba3-0cfd1fdd67ad")
+	)
+	(wire
+		(pts
+			(xy 237.49 101.6) (xy 231.14 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6c41e7-ee47-4a91-a0e4-7cea2196d012")
+	)
+	(wire
+		(pts
+			(xy 240.03 101.6) (xy 240.03 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cd3bb3-f426-4e57-a8d8-a2ca6dfd6d8e")
 	)
 	(wire
 		(pts
@@ -4046,6 +4210,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 109.22) (xy 231.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bde35c-79a4-4bd7-a52b-ea9d7de1a67e")
+	)
+	(wire
+		(pts
 			(xy 231.14 83.82) (xy 248.92 83.82)
 		)
 		(stroke
@@ -4103,6 +4277,16 @@
 			(type default)
 		)
 		(uuid "7ece7d83-9c5a-4e39-ada7-c88116b0bf62")
+	)
+	(wire
+		(pts
+			(xy 252.73 104.14) (xy 237.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fadc2d-83d9-4eb8-b650-2b15dc47441d")
 	)
 	(wire
 		(pts
@@ -4243,6 +4427,16 @@
 			(type default)
 		)
 		(uuid "a060b6c5-5907-4111-9e5f-26a2ce3c41ce")
+	)
+	(wire
+		(pts
+			(xy 252.73 101.6) (xy 240.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a11c7b36-791b-44ca-807a-3c397252f17a")
 	)
 	(wire
 		(pts
@@ -4606,6 +4800,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 83.82) (xy 248.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f897ec96-83ff-41e3-b6f7-be24cef570ed")
+	)
+	(wire
+		(pts
 			(xy 121.92 81.28) (xy 121.92 83.82)
 		)
 		(stroke
@@ -4613,6 +4817,16 @@
 			(type default)
 		)
 		(uuid "ff5d9dc8-240d-42d3-a68d-c174740c9aef")
+	)
+	(wire
+		(pts
+			(xy 237.49 104.14) (xy 237.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff7e0519-39e8-4ae3-8fba-4d888961b15b")
 	)
 	(hierarchical_label "Power8"
 		(shape input)
@@ -5135,6 +5349,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 252.73 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "14426845-250f-482e-a779-ef15bc2fb287")
+		(property "Reference" "#PWR015"
+			(at 246.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 251.206 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 252.73 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67fe4ec5-065d-489d-9847-0755b3c93e38")
+		)
+		(instances
+			(project "ROV"
+				(path "/df7a457f-e553-4b1a-9143-cdb39e42e745"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 55.88 76.2 0)
 		(unit 1)
@@ -5462,6 +5742,82 @@
 			(project "ROV"
 				(path "/df7a457f-e553-4b1a-9143-cdb39e42e745"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MPU6050:GY-MS5837")
+		(at 259.08 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c2399bd-aec1-4d30-ac29-70b347c4b309")
+		(property "Reference" "U9"
+			(at 264.16 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 264.16 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f0da3988-9e20-48a7-af01-2a107969d4af")
+		)
+		(pin "3"
+			(uuid "a9a01efe-a693-4d33-8ff3-3f3307b528b1")
+		)
+		(pin "2"
+			(uuid "1439d7d9-b871-4c62-8ef9-fa0e826dae27")
+		)
+		(pin "1"
+			(uuid "8afeaf6b-f8f2-489f-927b-83d5572110f3")
+		)
+		(instances
+			(project ""
+				(path "/df7a457f-e553-4b1a-9143-cdb39e42e745"
+					(reference "U9")
 					(unit 1)
 				)
 			)
