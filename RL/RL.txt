@@ -1,0 +1,19 @@
+Use this model
+Repo ID:
+repo_id = "ARG-NCTU/hrl-ppo-usv"
+
+
+Code to download and load it
+
+!pip install stable-baselines3 huggingface-sb3
+
+from huggingface_sb3 import load_from_hub
+from stable_baselines3 import PPO
+
+checkpoint = load_from_hub(
+    repo_id="ARG-NCTU/hrl-ppo-usv",
+    filename="hrl-v1-policy-weight.zip",
+)
+
+model = PPO.load(checkpoint)
+print("Model loaded successfully")
