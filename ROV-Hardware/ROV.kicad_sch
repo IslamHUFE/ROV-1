@@ -4156,96 +4156,16 @@
 		(uuid "f74a8db1-32fa-46f5-ad7e-774c3e398b97")
 	)
 	(no_connect
-		(at 213.36 66.04)
-		(uuid "00ccafd7-d3ac-4d1d-b8f1-101c99319c91")
-	)
-	(no_connect
-		(at 213.36 93.98)
-		(uuid "16410f10-74e4-4290-964c-7b441c1ab0fc")
-	)
-	(no_connect
-		(at 167.64 106.68)
-		(uuid "19ed096d-2fb3-44fb-a127-8b0ba797bea4")
-	)
-	(no_connect
-		(at 167.64 91.44)
-		(uuid "1c25e2bc-93c3-412a-b47b-bb1cb1460339")
-	)
-	(no_connect
-		(at 167.64 60.96)
-		(uuid "222a1f04-df9e-41fd-bfbf-89ab0b63259d")
-	)
-	(no_connect
-		(at 213.36 71.12)
-		(uuid "2fd1bc42-1f96-40bd-b88b-c51bb9623234")
-	)
-	(no_connect
-		(at 213.36 109.22)
-		(uuid "34127ac7-59a8-4ef5-8d5f-cb511e48422d")
-	)
-	(no_connect
-		(at 167.64 76.2)
-		(uuid "3728e92a-55e4-446f-bdbe-922454da47ac")
-	)
-	(no_connect
-		(at 213.36 73.66)
-		(uuid "39a6095d-fe94-4cef-801d-4c7fbf60f10a")
-	)
-	(no_connect
-		(at 213.36 101.6)
-		(uuid "533f3593-3ac4-4074-af89-f7cb733f3db0")
-	)
-	(no_connect
 		(at 107.95 91.44)
 		(uuid "609a858e-54d0-40de-ac86-257a98feacb1")
-	)
-	(no_connect
-		(at 223.52 93.98)
-		(uuid "618e60af-1ff7-4e51-993b-c34971d92947")
 	)
 	(no_connect
 		(at 107.95 86.36)
 		(uuid "8301c589-ccf8-4d64-967d-dce2001837a1")
 	)
 	(no_connect
-		(at 167.64 109.22)
-		(uuid "8564b07a-faac-4477-85a3-3e48ba4cf48a")
-	)
-	(no_connect
-		(at 167.64 71.12)
-		(uuid "974569ad-4cef-47e1-909b-3539792b8f3e")
-	)
-	(no_connect
 		(at 107.95 88.9)
 		(uuid "9c4a3a76-c20c-4f31-b198-91d6dfb0987b")
-	)
-	(no_connect
-		(at 213.36 68.58)
-		(uuid "aaf4a653-8d83-4d93-b1ec-dd67b862a3be")
-	)
-	(no_connect
-		(at 167.64 88.9)
-		(uuid "bb691ff6-abe5-44a1-9697-5c987cad7680")
-	)
-	(no_connect
-		(at 213.36 81.28)
-		(uuid "df299c68-2d45-4421-95fa-224ea6cdc733")
-	)
-	(no_connect
-		(at 167.64 114.3)
-		(uuid "f194c3a6-5c91-46ba-a090-3378c2fa68af")
-	)
-	(no_connect
-		(at 213.36 111.76)
-		(uuid "f7bb24b1-3106-406c-9e76-91ee1c0f250c")
-	)
-	(no_connect
-		(at 223.52 96.52)
-		(uuid "f7be359a-311e-49a1-a2c6-a2d6d8d98c07")
-	)
-	(no_connect
-		(at 213.36 104.14)
-		(uuid "fc5b98b7-f603-487f-8ff7-59c988e5fbfe")
 	)
 	(wire
 		(pts
