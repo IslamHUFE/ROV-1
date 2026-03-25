@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "esp32-s3")(type "KiCad")(uri "${KIPRJMOD}/footprints and 3d models/ESP32-S3-DEVKITC/esp32-s3.pretty")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/logo.pretty")(options "")(descr ""))
+  (lib (name "islam")(type "KiCad")(uri "${KIPRJMOD}/footprints and 3d models/islam/islam.pretty")(options "")(descr ""))
 )
