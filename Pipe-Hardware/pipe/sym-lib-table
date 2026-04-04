@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MPU6050")(type "KiCad")(uri "/home/islam-tarek-moawad/Documents/projects/ROV-repo/ROV-Hardware/MPU6050.kicad_sym")(options "")(descr ""))
+  (lib (name "AT24C512B-PU25")(type "KiCad")(uri "/home/islam-tarek-moawad/Documents/projects/ROV-repo/Pipe-Hardware/footprints/AT24C512B-PU25/AT24C512B-PU25.kicad_sym")(options "")(descr ""))
+)
