@@ -3975,6 +3975,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 88.9) (xy 91.44 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c652f97-77e7-4d90-8886-703d238fda8a")
+	)
+	(wire
+		(pts
 			(xy 72.39 106.68) (xy 72.39 101.6)
 		)
 		(stroke
@@ -3992,6 +4002,16 @@
 			(type default)
 		)
 		(uuid "159a44a4-222a-4439-ae76-3c15d494f4a6")
+	)
+	(wire
+		(pts
+			(xy 222.25 60.96) (xy 220.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16644eaa-3b70-476d-bcb8-68e0c88cbd62")
 	)
 	(wire
 		(pts
@@ -4065,7 +4085,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 58.42) (xy 220.98 58.42)
+			(xy 208.28 58.42) (xy 222.25 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4115,7 +4135,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 55.88) (xy 220.98 48.26)
+			(xy 215.9 55.88) (xy 215.9 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4192,6 +4212,16 @@
 			(type default)
 		)
 		(uuid "4c3b7748-1e7d-4e1a-9242-45a66c321ad0")
+	)
+	(wire
+		(pts
+			(xy 92.71 93.98) (xy 91.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5448f2-1891-4a80-838b-de80336e6113")
 	)
 	(wire
 		(pts
@@ -4275,6 +4305,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 55.88) (xy 222.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab2b724-6475-454b-b4bd-638fa02749d6")
+	)
+	(wire
+		(pts
 			(xy 91.44 63.5) (xy 96.52 63.5)
 		)
 		(stroke
@@ -4292,6 +4332,26 @@
 			(type default)
 		)
 		(uuid "6c85abe2-6e94-4848-bd13-25d71573328f")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "702cc52d-4666-4aa3-b3cb-387562768621")
+	)
+	(wire
+		(pts
+			(xy 92.71 96.52) (xy 91.44 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70b4033f-07f7-4a8b-914e-f976956b391a")
 	)
 	(wire
 		(pts
@@ -4715,7 +4775,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 48.26) (xy 134.62 48.26)
+			(xy 215.9 48.26) (xy 134.62 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4902,6 +4962,16 @@
 			(type default)
 		)
 		(uuid "e0be5460-8b8b-45d3-b627-6da53d61d66a")
+	)
+	(wire
+		(pts
+			(xy 208.28 107.95) (xy 208.28 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0ef3d34-8e07-489f-a06f-7c46e1f7f500")
 	)
 	(wire
 		(pts
@@ -5898,7 +5968,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 208.28 105.41 0)
+		(at 208.28 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5906,7 +5976,7 @@
 		(dnp no)
 		(uuid "2d462294-7d36-4150-9b08-8d8fe88919c6")
 		(property "Reference" "#PWR04"
-			(at 208.28 111.76 0)
+			(at 208.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5985,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 214.122 106.934 0)
+			(at 214.122 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +5994,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 105.41 0)
+			(at 208.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5933,7 +6003,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 105.41 0)
+			(at 208.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +6012,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 208.28 105.41 0)
+			(at 208.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +6106,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 96.52 91.44 0)
+		(at 97.79 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6045,7 +6115,7 @@
 		(fields_autoplaced yes)
 		(uuid "3565008a-7fca-4b7c-8a86-b4c0159eb06e")
 		(property "Reference" "J3"
-			(at 99.06 91.4399 0)
+			(at 100.33 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6125,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x04"
-			(at 99.06 93.9799 0)
+			(at 100.33 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +6135,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
-			(at 96.52 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +6144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +6153,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 96.52 91.44 0)
+			(at 97.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,7 +7126,7 @@
 	)
 	(symbol
 		(lib_id "MPU6050:water")
-		(at 226.06 58.42 0)
+		(at 227.33 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7065,7 +7135,7 @@
 		(fields_autoplaced yes)
 		(uuid "a09225b4-7a93-4f68-b875-82344aad0827")
 		(property "Reference" "U10"
-			(at 229.87 57.1499 0)
+			(at 231.14 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7144,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 229.87 59.6899 0)
+			(at 231.14 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7153,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 226.06 58.42 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 58.42 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7101,7 +7171,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 226.06 58.42 0)
+			(at 227.33 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
